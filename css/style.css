@@ -230,8 +230,7 @@ main {
 
 .topic.logo .item.large {
   width: 50%;
-  margin-left: 0;
-  margin-right: 0;
+  margin: 0;
 }
 
 .logo .side {
@@ -241,6 +240,8 @@ main {
 
 .logo .preview {
   border-radius: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .logo .side .preview {
@@ -251,6 +252,10 @@ main {
 
 .block {
   margin-bottom: 30px;
+}
+
+.print .item.quarter.row:not(.right) {
+  margin-right: 4%;
 }
 
 /* .print {
@@ -321,6 +326,7 @@ main {
 .topic .item.half {
   width: 48%;
   margin-right: 4%;
+  margin-bottom: 10px;
 }
 
 .topic .item.right {
