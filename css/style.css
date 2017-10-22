@@ -185,6 +185,12 @@ main {
   padding-bottom: 60px;
   border-radius: 5px;
   margin-bottom: 30px;
+  position: relative;
+}
+
+a#web, a#package, a#souvenir {
+  position: absolute;
+  top: -20px;
 }
 
 .topic.logo, .topic.print, .topic.bilboard {
@@ -208,7 +214,7 @@ main {
   margin-right: 2.5%;
 }
 
-.web .item:nth-child(2) {
+.web .item:nth-child(3) {
   width: 10%;
 }
 
@@ -267,7 +273,7 @@ main {
 }
 
 .pd-13:hover {
-  background-color: #ffc7b8;
+  background-color: white;
 }
 
 .poseidon:hover {
@@ -326,7 +332,7 @@ main {
 }
 
 .topic.package .item.large .caption {
-  margin-left: 9%;
+  margin-left: 19%;
   margin-top: -50px;
 }
 
