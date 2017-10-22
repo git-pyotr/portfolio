@@ -238,10 +238,54 @@ main {
   padding-left: 0;
 }
 
+.altus {
+  background-color: #ccf2ff;
+}
+
+.is {
+  background-color: #fcee21;
+}
+
+.pd-13 {
+  background-color: #ff9570;
+}
+
+.poseidon {
+  background-color: #0084f4;
+}
+
+.hook {
+  background-color: #95ff84;
+}
+
+.altus:hover {
+  background-color: #e7faff;
+}
+
+.is:hover {
+  background-color: #f9ee8f;
+}
+
+.pd-13:hover {
+  background-color: #ffc7b8;
+}
+
+.poseidon:hover {
+  background-color: #79bff2;
+}
+
+.hook:hover {
+  background-color: #cdffc4;
+}
+
 .logo .preview {
   border-radius: 0;
   margin: 0;
   padding: 0;
+}
+
+.topic.logo .item .preview:hover {
+  opacity: 1;
 }
 
 .logo .side .preview {
