@@ -244,7 +244,7 @@ a#web, a#package, a#souvenir {
 }
 
 .altus .preview {
-  background-color: #bdebfd;
+  background-color: #eff8fd;
   background-image: linear-gradient(to top, white 0, white 4%, rgba(255, 255, 255, 0) 4%);
 }
 
@@ -321,7 +321,7 @@ a#web, a#package, a#souvenir {
 
 .package {
   background-color: #7ac943;
-  background-image: linear-gradient(to right, #79ea2a, #36d6ac);
+  background-image: linear-gradient(to right, #a7ea2a, #36d6ac);
 }
 
 .package h2 {
