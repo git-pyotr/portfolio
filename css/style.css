@@ -478,6 +478,8 @@ h2::after {
   color: black;
   margin-top: -5px;
   margin-bottom: 30px;
+  width: 50%;
+  overflow: visible;
 }
 
 .copyright {
