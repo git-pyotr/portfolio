@@ -202,7 +202,7 @@ a#web, a#package, a#souvenir {
 
 .web {
   background-color: #3fa9f5;
-  background-image: linear-gradient(to right, #3fa9f5, rgb(121, 51, 171));
+  background-image: linear-gradient(to right, #3fa9f5, #9464ff);
 }
 
 .web h2 {
@@ -324,7 +324,7 @@ a#web, a#package, a#souvenir {
 
 .package {
   background-color: #7ac943;
-  background-image: linear-gradient(to right, #79ea2a, #006ea7);
+  background-image: linear-gradient(to right, #79ea2a, #36d6ac);
 }
 
 .package h2 {
@@ -354,7 +354,7 @@ a#web, a#package, a#souvenir {
 
 .souvenir {
   background-color: #ff7131;
-  background-image: linear-gradient(to right, #ff7131, rgb(204, 24, 154));
+  background-image: linear-gradient(to right, #ff7131, #f32b72);
 }
 
 .topic.souvenir .item.large {
@@ -465,7 +465,7 @@ h2::after {
 
 .web .preview:hover, .package .preview:hover, .souvenir .preview:hover {
   opacity: 1;
-  box-shadow: 0 0 0 7px rgba(255, 255, 255, 0.3);
+  box-shadow: 0 0 0 5px rgba(255, 255, 255, 0.3);
 }
 
 .large .preview:hover {
