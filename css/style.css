@@ -182,7 +182,7 @@ main {
   padding-left: 3%;
   padding-right: 3%;
   padding-top: 0;
-  padding-bottom: 60px;
+  padding-bottom: 30px;
   border-radius: 5px;
   margin-bottom: 30px;
   position: relative;
@@ -202,7 +202,7 @@ a#web, a#package, a#souvenir {
 
 .web {
   background-color: #3fa9f5;
-  background-image: linear-gradient(to right, #3fa9f5, rgb(205, 134, 255));
+  background-image: linear-gradient(to right, #3fa9f5, rgb(121, 51, 171));
 }
 
 .web h2 {
@@ -235,53 +235,57 @@ a#web, a#package, a#souvenir {
 }
 
 .topic.logo .item.large {
+  box-sizing: border-box;
   width: 50%;
   margin: 0;
 }
 
 .logo .side {
+  box-sizing: border-box;
   margin-left: 0;
-  padding-left: 0;
+  padding-left: 2%;
+  padding-bottom: 2%;
 }
 
-.altus {
-  background-color: #ccf2ff;
+.altus .preview {
+  background-color: #bddefd;
+  background-image: linear-gradient(to top, white 0, white 4%, rgba(255, 255, 255, 0) 4%);
 }
 
-.is {
-  background-color: #fffcd4;
+.is .preview {
+  background-color: #eff8fd;
 }
 
-.pd-13 {
-  background-color: #ff9570;
+.pd-13 .preview {
+  background-color: #eff8fd;
 }
 
-.poseidon {
-  background-color: #0084f4;
+.poseidon .preview {
+  background-color: #0073e5;
 }
 
-.hook {
-  background-color: #cdffc4;
+.hook .preview {
+  background-color: #0078e5;
 }
 
-.altus:hover {
-  background-color: #e7faff;
-}
-
-.is:hover {
+.altus .preview:hover {
   background-color: white;
 }
 
-.pd-13:hover {
+.is .preview:hover {
   background-color: white;
 }
 
-.poseidon:hover {
-  background-color: #79bff2;
+.pd-13 .preview:hover {
+  background-color: white;
 }
 
-.hook:hover {
-  background-color: white;
+.poseidon .preview:hover {
+  background-color: #002e58;
+}
+
+.hook .preview:hover {
+  background-color: #002e58;
 }
 
 .logo .preview {
@@ -301,11 +305,15 @@ a#web, a#package, a#souvenir {
 /* Бумага */
 
 .block {
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 .print .item.quarter.row:not(.right) {
   margin-right: 4%;
+}
+
+.print .item.quarter.row {
+  width: 22%;
 }
 
 /* .print {
@@ -316,7 +324,7 @@ a#web, a#package, a#souvenir {
 
 .package {
   background-color: #7ac943;
-  background-image: linear-gradient(to right, #79ea2a, #33d4c0);
+  background-image: linear-gradient(to right, #79ea2a, #006ea7);
 }
 
 .package h2 {
@@ -333,7 +341,7 @@ a#web, a#package, a#souvenir {
 
 .topic.package .item.large .caption {
   margin-left: 19%;
-  margin-top: -50px;
+  margin-top: -40px;
 }
 
 /* Наружка */
@@ -346,13 +354,13 @@ a#web, a#package, a#souvenir {
 
 .souvenir {
   background-color: #ff7131;
-  background-image: linear-gradient(to right, #ff7131, rgb(255, 103, 156));
+  background-image: linear-gradient(to right, #ff7131, rgb(204, 24, 154));
 }
 
 .topic.souvenir .item.large {
   margin-top: -15px;
-  margin-left: 3%;
-  margin-right: 3%;
+  margin-left: 2%;
+  margin-right: 2%;
 }
 
 .souvenir h2, .souvenir .caption {
@@ -360,7 +368,7 @@ a#web, a#package, a#souvenir {
 }
 
 .topic .item.quarter {
-  width: 22%;
+  width: 23%;
   margin-right: 2%;
 }
 
@@ -385,13 +393,12 @@ a#web, a#package, a#souvenir {
 
 .topic .item.large {
   width: 48%;
-  margin-right: 6%;
+  margin-right: 4%;
 }
 
 .topic .item.large .caption {
-  width: 130px;
-  margin-top: -40px;
-  font-size: 15px;
+  width: 110px;
+  margin-top: -80px;
 }
 
 .topic .item.large .preview:hover {
@@ -453,7 +460,12 @@ h2::after {
 }
 
 .preview:hover, .logo .large .preview:hover {
-  opacity: 0.6;
+  opacity: 0.7;
+}
+
+.web .preview:hover, .package .preview:hover, .souvenir .preview:hover {
+  opacity: 1;
+  box-shadow: 0 0 0 7px rgba(255, 255, 255, 0.3);
 }
 
 .large .preview:hover {
