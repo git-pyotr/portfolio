@@ -336,12 +336,12 @@ a#web, a#package, a#souvenir {
 }
 
 .package .large {
-  margin-top: -4%;
+  margin-top: -2%;
 }
 
 .topic.package .item.large .caption {
   margin-left: 18%;
-  margin-top: -10%;
+  margin-top: -8%;
 }
 
 /* Наружка */
