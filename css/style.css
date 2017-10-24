@@ -378,7 +378,9 @@ a#web, a#package, a#souvenir {
   margin-right: 4%;
 }
 
-
+.quarter .caption {
+  margin-bottom: 10%;
+}
 
 .topic .item.third {
   width: 31%;
