@@ -8,7 +8,7 @@ body {
   position: relative;
   margin: 0;
   padding: 0;
-  background-color: #f5f5f5
+  /* background-color: #f5f5f5 */
 }
 
 .clearfix::after{
@@ -29,7 +29,7 @@ body {
   top: 0;
   left: 0;
   color: white;
-  background-color: white;
+  background-color: #f5f5f5;
 }
 
 .author {
@@ -218,7 +218,7 @@ a#web, a#package, a#souvenir {
 }
 
 .web .preview {
-  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.2);
 }
 
 .web .caption {
@@ -249,16 +249,15 @@ a#web, a#package, a#souvenir {
 }
 
 .altus .preview {
-  background-color: white;
-  background-image: linear-gradient(to top, #f5f5f5 0, #f5f5f5 4%, transparent 4%);
+  background-image: linear-gradient(to right, #f0f0f0, transparent);
 }
 
 .is .preview {
-  background-color: white;
+  background-image: linear-gradient(to right, #f0f0f0, transparent);
 }
 
 .pd-13 .preview {
-  background-color: white;
+  background-image: linear-gradient(to right, #f0f0f0, transparent);
 }
 
 .poseidon .preview {
@@ -270,15 +269,18 @@ a#web, a#package, a#souvenir {
 }
 
 .altus .preview:hover {
-  background-color: #f5f5f5;
+  background-color: white;
+  background-image: none;
 }
 
 .is .preview:hover {
-  background-color: #f5f5f5;
+  background-color: white;
+  background-image: none;
 }
 
 .pd-13 .preview:hover {
-  background-color: #f5f5f5;
+  background-color: white;
+  background-image: none;
 }
 
 .poseidon .preview:hover {
@@ -307,7 +309,7 @@ a#web, a#package, a#souvenir {
 /* Бумага */
 
 .block {
-  padding-bottom: 8px;
+  padding-bottom: 3%;
 }
 
 .print .item.quarter.row:not(.right) {
@@ -363,7 +365,7 @@ a#web, a#package, a#souvenir {
 
 .topic .item.quarter {
   width: 22%;
-  margin-right: 4%;
+  margin-right: 2.5%;
 }
 
 .quarter .caption {
@@ -398,7 +400,6 @@ a#web, a#package, a#souvenir {
 
 .topic .item.large .caption {
   width: 110px;
-  margin-top: 10px;
   margin-bottom: 0;
 }
 
@@ -424,15 +425,31 @@ a#web, a#package, a#souvenir {
   box-shadow: none;
 }
 
+.topic .item.two-third {
+  width: 65.5%;
+  margin-right: 4%;
+  margin-top: -1.5%;
+}
+
+.topic .item.two-third .preview:hover {
+  box-shadow: none;
+}
+
+.topic .item.two-third .caption {
+  margin-top: -3%;
+}
+
 h2 {
   font-weight: bold;
   font-size: 50px;
   color: black;
   line-height: 1.2;
-  padding: 30px 0 50px 0;
+  padding: 30px 0 10px 0;
   margin: 0;
+  margin-bottom: 4%;
   position: relative;
   clear: both;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
 }
 
 @media (max-width: 1280px) {
@@ -444,16 +461,7 @@ h2 {
   }
 }
 
-h2::after {
-  content: "";
-  position: absolute;
-  height: 1px;
-  bottom: 45px;
-  left: 0;
-  right: 0;
-  background-color: rgba(0, 0, 0, 0.15);
-  /* background-image: linear-gradient(to right, #3fa9f5, #9464ff) */
-}
+
 /* 
 .logo h2:after, .print h2:after, .bilboard h2:after {
   background-color: rgba(0, 0, 0, 0.15);
@@ -478,7 +486,7 @@ h2::after {
 
 .preview:hover {
   opacity: 1;
-  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.4);
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.5);
 }
 
 .large .preview:hover {
