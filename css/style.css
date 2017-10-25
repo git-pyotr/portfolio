@@ -8,6 +8,7 @@ body {
   position: relative;
   margin: 0;
   padding: 0;
+  background-color: #f5f5f5
 }
 
 .clearfix::after{
@@ -23,11 +24,12 @@ body {
   width: 300px;
   height: 100vh;
   min-height: 670px;
-  padding: 20px 0;
+  padding: 0;
   position: sticky;
   top: 0;
   left: 0;
   color: white;
+  background-color: white;
 }
 
 .author {
@@ -39,8 +41,8 @@ body {
   padding-left: 175px;
   height: 200px;
   box-sizing: border-box;
-  border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px;
+  /* border-top-right-radius: 5px; */
+  /* border-bottom-right-radius: 5px; */
 }
 
 .name {
@@ -167,7 +169,7 @@ body {
 }
 
 main {
-  padding: 20px 30px 0 330px;
+  padding: 20px 30px 30px 330px;
   margin-top: -100vh;
   font-size: 0;
   min-width: 700px;
@@ -179,7 +181,7 @@ main {
   padding-top: 0;
   padding-bottom: 30px;
   border-radius: 5px;
-  margin-bottom: 30px;
+  margin-bottom: 0;
   position: relative;
 }
 
@@ -188,22 +190,22 @@ a#web, a#package, a#souvenir {
   top: -20px;
 }
 
-.topic.logo, .topic.print, .topic.bilboard {
+/* .topic.logo, .topic.print, .topic.bilboard {
   padding-left: 0;
   padding-right: 0;
 }
-
+ */
 /* Сайты */
 
 .web {
-  background-color: #74bdf1;
+  /* background-color: #e4e4e4; */
   /*
   background-image: linear-gradient(to right, #3fa9f5, #9464ff);
   */
 }
 
 .web h2 {
-  color: white;
+  /*color: white;*/
 }
 
 .web .item {
@@ -211,15 +213,17 @@ a#web, a#package, a#souvenir {
   margin-right: 2.5%;
 }
 
-.web .item:nth-child(3) {
+.web .narrow {
   width: 10%;
 }
 
-.web .caption {
-  color: white;
+.web .preview {
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
 }
 
-
+.web .caption {
+  /* color: white; */
+}
 
 /* Лого */
 
@@ -245,16 +249,16 @@ a#web, a#package, a#souvenir {
 }
 
 .altus .preview {
-  background-color: #eff8fd;
-  background-image: linear-gradient(to top, white 0, white 4%, rgba(255, 255, 255, 0) 4%);
+  background-color: white;
+  background-image: linear-gradient(to top, #f5f5f5 0, #f5f5f5 4%, transparent 4%);
 }
 
 .is .preview {
-  background-color: #eff8fd;
+  background-color: white;
 }
 
 .pd-13 .preview {
-  background-color: #eff8fd;
+  background-color: white;
 }
 
 .poseidon .preview {
@@ -266,15 +270,15 @@ a#web, a#package, a#souvenir {
 }
 
 .altus .preview:hover {
-  background-color: white;
+  background-color: #f5f5f5;
 }
 
 .is .preview:hover {
-  background-color: white;
+  background-color: #f5f5f5;
 }
 
 .pd-13 .preview:hover {
-  background-color: white;
+  background-color: #f5f5f5;
 }
 
 .poseidon .preview:hover {
@@ -303,7 +307,7 @@ a#web, a#package, a#souvenir {
 /* Бумага */
 
 .block {
-  padding-bottom: 0;
+  padding-bottom: 8px;
 }
 
 .print .item.quarter.row:not(.right) {
@@ -321,18 +325,18 @@ a#web, a#package, a#souvenir {
 /* Упаковка */
 
 .package {
-  background-color: #86e675;
+  /* background-color: #e4e4e4; */
   /*
   background-image: linear-gradient(to right, #a7ea2a, #36d6ac);
   */
 }
 
 .package h2 {
-  color: white;
+  /* color: white; */
 }
 
 .package .caption {
-  color: white;
+  /* color: white; */
 }
 
 .package .large {
@@ -340,8 +344,8 @@ a#web, a#package, a#souvenir {
 }
 
 .topic.package .item.large .caption {
-  margin-left: 18%;
-  margin-top: -8%;
+  margin-left: 17%;
+  margin-top: -5%;
 }
 
 /* Наружка */
@@ -352,25 +356,14 @@ a#web, a#package, a#souvenir {
 
 /* Сувенирка */
 
-.souvenir {
-  background-color: #ff8447;
-  /*
-  background-image: linear-gradient(to right, #ff7131, #f32b72);
-  */
-}
-
 .topic.souvenir .item.large {
   margin-top: -15px;
-  margin-left: 2%;
-  margin-right: 2%;
+  margin-left: 0;
+  margin-right: 4%;
 }
 
 .topic.souvenir .item.large .caption {
   margin-top: -10%;
-}
-
-.souvenir h2, .souvenir .caption {
-  color: white;
 }
 
 .topic .item.quarter {
@@ -423,11 +416,23 @@ a#web, a#package, a#souvenir {
   margin: 0;
 }
 
+.topic .item.full {
+  width: 100%;
+  margin-bottom: 2%;
+}
+
+.topic .item.full .caption {
+  width: 110px;
+}
+
+.topic .item.full .preview:hover {
+  box-shadow: none;
+}
 
 h2 {
   font-weight: bold;
   font-size: 50px;
-  color: #1a1a1a;
+  color: black;
   line-height: 1.2;
   padding: 30px 0 50px 0;
   margin: 0;
@@ -451,12 +456,13 @@ h2::after {
   bottom: 45px;
   left: 0;
   right: 0;
-  background-color: rgba(255, 255, 255, 0.4)
+  background-color: rgba(0, 0, 0, 0.15);
+  /* background-image: linear-gradient(to right, #3fa9f5, #9464ff) */
 }
-
+/* 
 .logo h2:after, .print h2:after, .bilboard h2:after {
   background-color: rgba(0, 0, 0, 0.15);
-}
+} */
 
 .item {
   float: left;
