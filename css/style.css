@@ -343,11 +343,6 @@ a#web, a#package, a#souvenir {
   margin-top: -2%;
 }
 
-.topic.package .item.large .caption {
-  margin-left: 17%;
-  margin-top: -5%;
-}
-
 /* Наружка */
 
 .bilboard h2, .bilboard .caption {
