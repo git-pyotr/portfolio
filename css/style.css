@@ -282,11 +282,11 @@ a#web, a#package, a#souvenir {
 }
 
 .poseidon .preview:hover {
-  background-color: #002e58;
+  background-color: black;
 }
 
 .hook .preview:hover {
-  background-color: #002e58;
+  background-color: black;
 }
 
 .logo .preview {
