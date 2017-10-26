@@ -249,27 +249,36 @@ a#web, a#package, a#souvenir {
 }
 
 .altus .preview {
+  /*
   background-image: repeating-linear-gradient(90deg, 
   hsla(0, 0%, 96%, 1) 0, 
   hsla(0, 0%, 96%, 1) 2px, 
   transparent 2px, 
   transparent 5px);
+  */
+  background-color: hsl(0, 0%, 97%);
 }
 
 .is .preview {
+  /*
   background-image: repeating-linear-gradient(90deg, 
   hsla(0, 0%, 96%, 1) 0, 
   hsla(0, 0%, 96%, 1) 2px, 
   transparent 2px, 
   transparent 5px);
+  */
+  background-color: hsl(0, 0%, 97%);
 }
 
 .pd-13 .preview {
+  /*
   background-image: repeating-linear-gradient(90deg, 
   hsla(0, 0%, 96%, 1) 0, 
   hsla(0, 0%, 96%, 1) 2px, 
   transparent 2px, 
   transparent 5px);
+  */
+  background-color: hsl(0, 0%, 97%);
 }
 
 .poseidon .preview {
@@ -307,6 +316,7 @@ a#web, a#package, a#souvenir {
   border-radius: 0;
   margin: 0;
   padding: 0;
+  border-radius: 3%;
 }
 
 .topic.logo .item .preview:hover {
