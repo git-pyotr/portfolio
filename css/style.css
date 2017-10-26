@@ -256,7 +256,7 @@ a#web, a#package, a#souvenir {
   transparent 2px, 
   transparent 5px);
   */
-  background-color: hsl(0, 0%, 97%);
+  background-color: #f5f5f5;
 }
 
 .is .preview {
@@ -267,7 +267,7 @@ a#web, a#package, a#souvenir {
   transparent 2px, 
   transparent 5px);
   */
-  background-color: hsl(0, 0%, 97%);
+  background-color: #f5f5f5;
 }
 
 .pd-13 .preview {
@@ -278,7 +278,7 @@ a#web, a#package, a#souvenir {
   transparent 2px, 
   transparent 5px);
   */
-  background-color: hsl(0, 0%, 97%);
+  background-color: #f5f5f5;
 }
 
 .poseidon .preview {
