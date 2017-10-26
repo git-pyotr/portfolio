@@ -249,15 +249,27 @@ a#web, a#package, a#souvenir {
 }
 
 .altus .preview {
-  background-image: linear-gradient(to right, #f0f0f0, transparent);
+  background-image: repeating-linear-gradient(45deg, 
+	hsla(0, 0%, 96%, 1) 0, 
+	hsla(0, 0%, 96%, 1) 2px, 
+	transparent 2px, 
+	transparent 5px);
 }
 
 .is .preview {
-  background-image: linear-gradient(to right, #f0f0f0, transparent);
+  background-image: repeating-linear-gradient(45deg, 
+	hsla(0, 0%, 96%, 1) 0, 
+	hsla(0, 0%, 96%, 1) 2px, 
+	transparent 2px, 
+	transparent 5px);
 }
 
 .pd-13 .preview {
-  background-image: linear-gradient(to right, #f0f0f0, transparent);
+  background-image: repeating-linear-gradient(-45deg, 
+	  hsla(0, 0%, 96%, 1) 0, 
+	  hsla(0, 0%, 96%, 1) 2px, 
+	  transparent 2px, 
+	  transparent 5px);
 }
 
 .poseidon .preview {
