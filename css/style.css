@@ -29,7 +29,7 @@ body {
   top: 0;
   left: 0;
   color: white;
-  background-color: #fdf8e8;
+  background-color: #f5f5f5;
 }
 
 .author {
@@ -218,7 +218,7 @@ a#web, a#package, a#souvenir {
 }
 
 .web .preview {
-  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.3);
 }
 
 .web .caption {
@@ -305,11 +305,11 @@ a#web, a#package, a#souvenir {
 }
 
 .poseidon .preview:hover {
-  background-color: black;
+  background-color: #334f77;
 }
 
 .hook .preview:hover {
-  background-color: black;
+  background-color: #334f77;
 }
 
 .logo .preview {
@@ -500,7 +500,7 @@ h2 {
 
 .preview {
   box-sizing: border-box;
-  border-radius: 3px;
+  border-radius: 2%;
   cursor: pointer;
   width: 100%;
   margin-bottom: 14px;
@@ -508,7 +508,7 @@ h2 {
 
 .preview:hover {
   opacity: 1;
-  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 15px 30px -5px rgba(0, 0, 0, 0.5);
 }
 
 .large .preview:hover {
