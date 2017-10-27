@@ -331,7 +331,7 @@ a#web, a#package, a#souvenir {
 /* Ãâ€˜Ã‘Æ’ÃÂ¼ÃÂ°ÃÂ³ÃÂ° */
 
 .block {
-  padding-bottom: 3%;
+  padding-bottom: 1%;
 }
 
 .print .item.quarter.row:not(.right) {
@@ -458,7 +458,7 @@ a#web, a#package, a#souvenir {
 }
 
 .topic .item.two-third .caption {
-  margin-top: -3%;
+  margin-top: -6.5%;
 }
 
 h2 {
