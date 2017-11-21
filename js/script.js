@@ -8,7 +8,6 @@ var ancor = document.querySelectorAll(".menu-item");
 
 item.addEventListener("click", function(event) {
   event.preventDefault();
-  var elemPosition = window.pageYOffset + 50;
   item.classList.toggle("show");	
 });
 
