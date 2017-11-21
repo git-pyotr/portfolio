@@ -10,6 +10,10 @@ body {
   padding: 0;
 }
 
+.scroll-off {
+  overflow: hidden;
+}
+
 .container {
   display: flex;
   flex-direction: row;
@@ -374,6 +378,8 @@ h2 {
   background-color: rgba(0, 0, 0, 0.8);
   display: none;
   text-align: center;
+  height: 100vh;
+  overflow: overlay;
 }
 
 .item-image {
