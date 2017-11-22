@@ -23,7 +23,6 @@ body {
   align-items: flex-start;
   width: 1000px;
   margin: 0 auto;
-  padding: 0 35px;
   position: relative;
 }
 
@@ -35,26 +34,21 @@ body {
   color: white;
 }
 
-.main-info {
-  height: 95px;
-  /* background-color: #f05027; */
-}
-
 .photo {
   width: 235px;
-  height: 135px;
+  height: 125px;
   /* background-color: #f05027; */
   background-image: url(../img/photo.png);
-  background-position: 0px -6px;
+  background-position: 0px 5px;
   background-repeat: no-repeat;
-  background-size: 85%;
+  background-size: 72%;
   position: absolute;
   left: 0;
   bottom: 0px;
 }
 
 .menu {
-  height: 95px;
+  height: 70px;
   margin: 0;
   display: flex;
   justify-content: space-between;
@@ -64,7 +58,7 @@ body {
 .menu-item {
   display: block;
   font-size: 16px;
-  line-height: 75px;
+  line-height: 70px;
   color: #470236;
   text-decoration: none;
   padding: 10px;
@@ -93,18 +87,18 @@ body {
   height: 3px;
   left: 0;
   right: 0;
-  bottom: -39px;
+  bottom: -27px;
   background-color: #f05027;
 }
 
 .name {
   align-self: center;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.2;
   font-style: normal;
   color: black;
-  margin-left: 130px;
+  margin-left: 140px;
 }
 
 .profession {
@@ -113,7 +107,7 @@ body {
 
 .contacts {
   font-size: 0;
-  height: 40px;
+  height: 45px;
   background-color: #470236;
 }
 
@@ -123,7 +117,7 @@ body {
 
 .contacts a {
   margin: 0;
-  padding: 9px 12px 9px 0;
+  padding: 12px 12px 12px 0;
   margin-right: 10px;
   color: white;
   align-self: center;
@@ -201,7 +195,7 @@ h2 {
   color: black;
   width: 100%;
   font-weight: bold;
-  font-size: 40px;
+  font-size: 35px;
   line-height: 1;
   margin: 0;
   padding: 10px 0 10px 0;
@@ -299,12 +293,17 @@ h2 {
   box-shadow: 0 0 0 1px #f05027;
 }
 
-.web .preview {
+.web .preview, .logo .preview {
   border: 1px solid #dfdfdf;
 }
 
+.web .preview:hover, .logo .preview:hover {
+  box-shadow: none;
+  border-color: #f05027; 
+}
+
 .large-modul {
-  margin-bottom: 40px;
+  margin-bottom: 25px;
 }
 
 .large-preview {
@@ -333,8 +332,6 @@ h2 {
 
 .logo img {
   margin-bottom: 18%;
-  border: 1px solid #dfdfdf;
-  /* background-color: #fbfbfb; */
 }
 
 .side {
