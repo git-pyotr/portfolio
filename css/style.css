@@ -28,7 +28,7 @@ body {
 }
 
 .ruler {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #9c9c9c;
 }
 
 .info {
@@ -90,7 +90,7 @@ body {
 .active span::after {
   content: "";
   position: absolute;
-  height: 4px;
+  height: 3px;
   left: 0;
   right: 0;
   bottom: -39px;
