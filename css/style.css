@@ -177,6 +177,7 @@ body {
 
 .contacts a.email:hover:after {
   background-color: #f05027;
+  opacity: 1;
 }
 
 main {
@@ -195,8 +196,6 @@ main {
 
 .wrap {
   width: 100%;
-  display: flex;
-  justify-content: space-between;
 }
 
 .logo-wrap {
@@ -212,6 +211,7 @@ main {
   padding-top: 5px;
   padding-bottom: 15px;
   margin-bottom: 50px;
+  width: 100%;
 }
 
 .topic:first-child .topic-name {
@@ -228,7 +228,7 @@ h2 {
   font-size: 48px;
   line-height: 1;
   margin: 0;
-  margin-right: 30px;
+  margin-right: 20px;
   position: relative;
 }
 
