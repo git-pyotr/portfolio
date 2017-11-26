@@ -3,15 +3,31 @@
   <head>
     <meta charset="utf-8">
     <meta id="viewport" content="width=device-width initial-scale=1">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=cyrillic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,900&amp;subset=cyrillic" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <title>Портфолио</title>
   </head>
 
   <body>
     <header class="info">
-      <div class="contacts">
-        <div class="container right">
+      <div class="container">
+        <div class="main-info">
+          <div class="photo"></div>
+          <div class="descr">
+            <div class="page-name">Портфолио</div>
+            <div class="name">Пётр Елманов,</div>
+            <div class="profession">дизайнер</div>
+          </div>
+        </div>
+        <div class="menu">
+          <a href="#web" class="menu-item active"><span>Сайты</span></a>
+          <a href="#print" class="menu-item"><span>Полиграфия</span></a>
+          <a href="#logo" class="menu-item"><span>Логотипы</span></a>
+          <a href="#souvenir" class="menu-item"><span>Сувениры</span></a>
+          <a href="#bilboard" class="menu-item"><span>Наружная реклама</span></a>
+          <a href="#package" class="menu-item"><span>Упаковка</span></a>
+        </div>
+        <div class="contacts">
           <a href="https://behance.net/gpyotr6156" class="behance">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28.42 17.22">
               <title>behance-hover</title>
@@ -45,28 +61,17 @@
           <a href="mailto:g.pyotr@gmail.com" class="email">g.pyotr@gmail.com</a>
         </div>
       </div>
-      <div class="main-info">
-        <div class="container ruler">
-          <div class="photo"></div>
-          <div class="name">Пётр<br>Елманов
-            <div class="profession">дизайнер</div>
-          </div>
-          <div class="menu">
-            <a href="#web" class="menu-item active"><span>Сайты</span></a>
-            <a href="#print" class="menu-item"><span>Полиграфия</span></a>
-            <a href="#logo" class="menu-item"><span>Логотипы</span></a>
-            <a href="#souvenir" class="menu-item"><span>Сувениры</span></a>
-            <a href="#bilboard" class="menu-item"><span>Наружная реклама</span></a>
-            <a href="#package" class="menu-item"><span>Упаковка</span></a>
-        </div>
-        </div>
-      </div>
     </header>
 
     <main>
       <div class="web topic">
         <div class="container">
-          <h2 id="web" class="ruler">Сайты</h2>
+          <div class="wrap">
+            <div class="topic-name">
+              <h2 id="web">Сайты</h2>
+              <div class="years">2016 — 2017</div>
+            </div>
+          </div>
           <div class="item-four-fith large-modul">
             <div class="item-preview"><img class="preview" src="img/preview/coinstock_1_preview.png" alt="coinstock_1.png"></div>
           </div>
@@ -104,7 +109,12 @@
 
       <div class="print topic">
         <div class="container">
-          <h2 id="print" class="ruler">Полиграфия</h2>
+          <div class="wrap">
+            <div class="topic-name ruler">
+              <h2 id="print">Полиграфия</h2>
+              <div class="years">2012 — 2016</div>
+            </div>
+          </div>
           <div class="item-four-fith">
             <div class="item-preview mask"><img class="preview large-preview" src="img/preview/chikas_preview.jpg" alt="chikas.jpg"></div>
             <div class="caption up-caption">Меню «Чикас»</div>
@@ -134,9 +144,14 @@
         </div>
       </div>
 
-      <div class="logo topic">
+      <div class="logo topic light-topic">
         <div class="container">
-          <h2 id="logo" class="ruler">Логотипы</h2>
+          <div class="wrap">
+            <div class="topic-name ruler">
+              <h2 id="logo">Логотипы</h2>
+              <div class="years">2009 — 2016</div>
+            </div>
+          </div>
           <div class="item-two-fourth">
             <div class="item-preview"><img class="preview" src="img/preview/altus_preview.png" alt="altus.jpg"></div>
             <div class="caption">Логотип «Altus»</div>
@@ -156,14 +171,19 @@
         </div>
       </div>
       
-      <div class="souvenir topic">
+      <div class="souvenir topic light-topic">
         <div class="container">
-          <h2 id="souvenir" class="ruler">Сувениры</h2>
+          <div class="wrap">
+            <div class="topic-name ruler">
+              <h2 id="souvenir">Сувениры</h2>
+              <div class="years">2007 — 2009</div>
+            </div>
+          </div>
           <div class="item-three-fourth">
             <div class="item-preview mask"><img class="preview large-preview" src="img/preview/deep_plate_preview.png" alt="deep_plate.jpg"></div>
             <div class="caption up-caption">Сувенирная тарелка «Глубокая»</div>
           </div>
-          <div class="item-one-fourth side">
+          <div class="item-one-fourth">
             <div class="item-preview"><img class="preview" src="img/preview/profy_preview.jpg" alt="profy.jpg"></div>
             <div class="caption">Кружка «Профессионал»</div>
             <div class="item-preview"><img class="preview" src="img/preview/shark_preview.jpg" alt="shark.jpg"></div>
@@ -176,7 +196,12 @@
       
       <div class="bilboard topic">
         <div class="container">
-          <h2 id="bilboard" class="ruler">Наружная реклама</h2>
+          <div class="wrap">
+            <div class="topic-name ruler">
+              <h2 id="bilboard">Наружная реклама</h2>
+              <div class="years">2012 — 2016</div>
+            </div>
+          </div>
           <div class="item-full-width">
             <div class="item-preview"><img class="preview" src="img/preview/radiator_preview.jpg" alt="radiator.jpg"></div>
             <div class="caption">Билборд «Радиатор Арт»</div>
@@ -196,14 +221,19 @@
         </div>
       </div>
 
-      <div class="package topic">
+      <div class="package topic light-topic">
         <div class="container">
-          <h2 id="package" class="ruler">Упаковка</h2>
+          <div class="wrap">
+            <div class="topic-name ruler">
+              <h2 id="package">Упаковка</h2>
+              <div class="years">2008 — 2015</div>
+            </div>
+          </div>
           <div class="item-two-third">
             <div class="item-preview mask"><img class="preview large-preview" src="img/preview/shilovskoe_preview.png" alt="shilovskoe.jpg"></div>
             <div class="caption up-caption">Пакет молока «Отличное»</div>
           </div>
-          <div class="item-one-third side">
+          <div class="item-one-third">
             <div class="item-preview"><img class="preview" src="img/preview/trek_preview.jpg" alt="trek.jpg"></div>
             <div class="caption">Диск группы «Трек»</div>
             <div class="item-preview"><img class="preview" src="img/preview/tea_preview.jpg" alt="tea.jpg"></div>
