@@ -29,8 +29,8 @@ body {
 .info {
   color: black;
   margin-top: 10px;
-  margin-bottom: 45px;
-  padding-bottom: 20px;
+  margin-bottom: 30px;
+  padding-bottom: 15px;
   border-bottom: 1px solid #d4d4d4;
 }
 
@@ -62,7 +62,7 @@ body {
 }
 
 .name, .profession {
-  font-size: 16px;
+  font-size: 15px;
   line-height: 1.2;
 }
 
@@ -72,13 +72,13 @@ body {
   justify-content: flex-start;
   align-self: flex-start;
   flex-wrap: wrap;
-  width: 38%;
+  width: 33%;
   margin-top: 5px;
 }
 
 .menu-item {
   display: block;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 1;
   color: black;
   text-decoration: none;
@@ -150,7 +150,7 @@ body {
 
 .contacts a.email {
   display: block;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 1.2;
   color: black;
   padding: 0;
@@ -207,8 +207,8 @@ main {
   display: flex;
   flex-direction: row;
   align-content: flex-start;
-  justify-content: flex-start;
-  padding-top: 5px;
+  justify-content: space-between;
+  padding-top: 10px;
   padding-bottom: 15px;
   margin-bottom: 50px;
   width: 100%;
@@ -216,6 +216,7 @@ main {
 
 .topic:first-child .topic-name {
   margin-bottom: 20px;
+  justify-content: flex-start;
 }
 
 .light-topic {
@@ -233,7 +234,7 @@ h2 {
 }
 
 .years {
-  font-size: 14px;
+  font-size: 12px;
   /* font-weight: 1000; */
   margin-top: 10px;
 }
@@ -399,7 +400,7 @@ h2 {
 }
 
 .copyright {
-  font-size: 14px;
+  font-size: 12px;
   line-height: 1.5;
   margin-top: 8px;
 }
