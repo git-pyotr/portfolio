@@ -34,12 +34,17 @@ body {
   border-bottom: 1px solid #d4d4d4;
 }
 
+.info .container {
+  flex-wrap: nowrap;
+}
+
 .main-info {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   flex-wrap: nowrap;
   margin-top: 5px;
+  margin-right: 40px;
 }
 
 .photo {
@@ -72,13 +77,12 @@ body {
   justify-content: flex-start;
   align-self: flex-start;
   flex-wrap: wrap;
-  width: 33%;
   margin-top: 5px;
 }
 
 .menu-item {
   display: block;
-  font-size: 12px;
+  font-size: 13px;
   line-height: 1;
   color: black;
   text-decoration: none;
@@ -118,8 +122,7 @@ body {
 
 .contacts a {
   margin: 0;
-  padding: 12px 12px 12px 0;
-  margin-right: 5px;
+  padding: 12px 7px;
 }
 
 .contacts a.behance {
@@ -150,25 +153,33 @@ body {
 
 .contacts a.email {
   display: block;
-  font-size: 12px;
+  font-size: 13px;
   line-height: 1.2;
   color: black;
   padding: 0;
-  margin-right: 0;
+  margin-left: 10px;
   padding: 15px 0;
   text-decoration: none;
   position: relative;
+}
+
+.contacts a:first-child {
+  padding-left: 0;
+}
+
+.contacts a:last-child {
+  margin-right: 0;
 }
 
 .contacts a.email::after {
   content: "";
   position: absolute;
   height: 1px;
-  bottom: 10px;
+  bottom: 12px;
   left: 0;
   right: 0;
   background-color: black;
-  opacity: .2;
+  opacity: .15;
 }
 
 .contacts a.email:hover {
@@ -234,7 +245,7 @@ h2 {
 }
 
 .years {
-  font-size: 12px;
+  font-size: 13px;
   /* font-weight: 1000; */
   margin-top: 10px;
 }
@@ -342,7 +353,7 @@ h2 {
 
 .caption {
   color: black;
-  font-size: 14px;
+  font-size: 13px;
   line-height: 1.4;
   margin-bottom: 30px;
   overflow: visible;
@@ -400,7 +411,7 @@ h2 {
 }
 
 .copyright {
-  font-size: 12px;
+  font-size: 13px;
   line-height: 1.5;
   margin-top: 8px;
 }
