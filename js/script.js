@@ -24,13 +24,13 @@ for (var i = 0; i < preview.length; i++) {
 	});
 }
 
-for (var i = 0; i < ancor.length; i++) {
+/* for (var i = 0; i < ancor.length; i++) {
 	ancor[i].addEventListener("click", function(event) {
     if (document.querySelector(".active")) {
       document.querySelector(".active").classList.remove("active");
     }
     this.classList.add("active");
 	});
-}
+} */
 
 })();
