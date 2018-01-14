@@ -18,16 +18,16 @@ body {
 main {
   position: relative;
   width: 767px;
-  padding-top: 30px;
   padding-left: 220px;
   padding-right: 20px;
+  padding-bottom: 20px;
   margin: 0 auto;
 }
 
 .info {
   position: fixed;
   width: 190px;
-  top: 30px;
+  top: 35px;
   margin-left: -210px;
   /* border-right: 1px solid #333;
   height: 92vh; */
@@ -63,7 +63,7 @@ main {
 }
 
 .menu-item:hover {
-  color: #738FFF;
+  color: #F44336;
 }
 
 .active {
@@ -100,8 +100,8 @@ main {
   fill: black;
 }
 
-.contacts a:hover svg .content {
-  fill: #0000FF;
+.contacts a:hover {
+  background-color: #F44336;
 }
 
 .contacts a.email {
@@ -122,12 +122,12 @@ main {
   bottom: 0px;
   left: 0;
   right: 0;
-  background-color: #738FFF;
+  background-color: #F44336;
   opacity: .5;
 } */
 
 .contacts a.email:hover {
-  color: #738FFF;
+  color: #F44336;
 }
 
 .page-name {
@@ -137,6 +137,7 @@ main {
   margin-top: -10px;
   margin-bottom: 30px;
   font-weight: normal;
+  display: none;
 }
 
 .topic {
@@ -157,18 +158,23 @@ main {
 
 h2 {
   font-weight: normal;
-  font-size: 26px;
-  line-height: 1.2;
-  padding-top: 5px;
+  font-size: 40px;
+  line-height: 1;
+  padding-top: 25px;
   margin: 0;
-  margin-bottom: 20px;
+  margin-bottom: 35px;
   position: relative;
   width: 100%;
-  border-top: 1px solid #333;
+  /* border-top: 1px solid #333; */
 }
 
 .item-preview {
   position: relative;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+.set {
   margin-bottom: 7px;
 }
 
@@ -204,13 +210,11 @@ h2 {
   background-position: center;
   background-size: contain;
   z-index: 1;
-  cursor: pointer;
   /* opacity: .6; */
 }
 
 .preview {
   display: block;
-  cursor: pointer;
   width: 100%;
   height: auto;
   background-color: white;
@@ -220,7 +224,6 @@ h2 {
   font-size: 12px;
   line-height: 1.2;
   margin-top: 10px;
-  margin-bottom: 30px;
   width: 100%;
   overflow: visible;
 }
@@ -230,8 +233,12 @@ h2 {
 }
 
 .item-preview~.caption {
-  margin-top: 2px;
-  margin-bottom: 40px;
+  margin-top: 3px;
+  margin-bottom: 30px;
+}
+
+.item-preview:hover .caption {
+  color: #F44336;
 }
 
 .module {
