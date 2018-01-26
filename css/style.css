@@ -281,7 +281,7 @@ h2 {
   display: none;
   text-align: center;
   height: 100vh;
-  overflow: overlay;
+  overflow: auto;
 }
 
 .item-image {
