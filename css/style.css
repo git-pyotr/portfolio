@@ -70,15 +70,16 @@ main {
   position: relative;
 }
 
-.menu-item:hover span:after, 
-.contacts a.email:hover span:after {
+.menu-item:hover span:before, 
+.contacts a.email:hover span:before {
   content: "";
   position: absolute;
   left: 0;
   right: 0;
-  bottom: -2px;
-  height: 1px;
+  bottom: -3px;
+  height: 4px;
   background-color: #F44336;
+  z-index: -1;
 }
 
 .active {
@@ -89,7 +90,7 @@ main {
   color: #F44336;
 }
 
-.active:hover span:after {
+.active:hover span:before {
   display: none;
 }
 
@@ -216,14 +217,28 @@ h2 {
   position: absolute;
   top: 0;
   right: 0;
-  width: 120px;
-  height: 120px;
+  width: 90px;
+  height: 90px;
   background-image: url(../img/zoom.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
   z-index: 1;
-  /* opacity: .6; */
+}
+
+.caption span {
+  position: relative;
+}
+
+.item-preview:hover .caption span::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -3px;
+  height: 4px;
+  background-color: #F44336;
+  z-index: -1;
 }
 
 .preview {
