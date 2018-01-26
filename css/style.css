@@ -20,7 +20,7 @@ main {
   width: 899px;
   padding-left: 240px;
   padding-right: 20px;
-  padding-bottom: 25px;
+  padding-bottom: 15px;
   /* margin: 0 auto; */
 }
 
@@ -63,7 +63,7 @@ main {
   line-height: 1;
   color: white;
   text-decoration: none;
-  padding: 12px 0;
+  padding: 10px 0;
 }
 
 .menu-item span {
@@ -101,7 +101,7 @@ main {
   justify-content: flex-start;
   align-items: flex-start;
   flex-wrap: wrap;
-  margin-bottom: 70px;
+  margin-bottom: 60px;
 }
 
 .contacts a {
@@ -324,8 +324,8 @@ h2 {
   }
 
   .info {
-    width: 148px;
-    margin-left: -158px;
+    width: 145px;
+    margin-left: -155px;
   }
 
   .photo {
@@ -345,7 +345,7 @@ h2 {
 
   .menu-item {
     font-size: 12px;
-    padding: 8px 0;
+    padding: 7px 0;
   }
 
   .contacts a {
