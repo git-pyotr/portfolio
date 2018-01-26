@@ -27,7 +27,7 @@ main {
 .info {
   position: fixed;
   width: 195px;
-  margin-left: -225px;
+  margin-left: -220px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
