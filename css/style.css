@@ -39,7 +39,7 @@ main {
 .photo {
   width: 120px;
   height: 120px;
-  border-radius: 50%;
+  border-radius: 40%;
   background-color: #d4d4d4;
   background-image: url(../img/photo.jpg);
   background-position: center;
