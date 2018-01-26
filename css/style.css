@@ -18,7 +18,7 @@ body {
 main {
   position: relative;
   width: 899px;
-  padding-left: 230px;
+  padding-left: 240px;
   padding-right: 20px;
   padding-bottom: 50px;
   /* margin: 0 auto; */
@@ -27,13 +27,13 @@ main {
 .info {
   position: fixed;
   width: 195px;
-  margin-left: -215px;
+  margin-left: -225px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   height: 88vh;
   /* border-right: 1px solid #333; */
-  top: 35px;
+  top: 25px;
 }
 
 .photo {
@@ -49,7 +49,7 @@ main {
 }
 
 .name {
-  font-size: 24px;
+  font-size: 22px;
   line-height: 1.3;
   margin-bottom: 40px;
 }
@@ -108,7 +108,7 @@ main {
   margin: 0;
   margin-right: 14px;
   background-color: white;
-  border-radius: 50%;
+  border-radius: 40%;
 }
 
 .contacts svg {
@@ -174,9 +174,9 @@ h2 {
   font-size: 50px;
   line-height: 1;
   color: white;
-  padding-top: 30px;
+  padding-top: 20px;
   margin: 0;
-  margin-bottom: 22px;
+  margin-bottom: 35px;
   position: relative;
   width: 100%;
 }
@@ -303,14 +303,14 @@ h2 {
   display: block;
 }
 
-@media (max-width: 1165px) {
+@media (max-width: 1175px) {
   main {
     padding-left: 170px;
   }
 
   .info {
     width: 148px;
-    margin-left: -155px;
+    margin-left: -158px;
   }
 
   .photo {
@@ -320,7 +320,7 @@ h2 {
   }
 
   .name {
-    font-size: 18px;
+    font-size: 16px;
     margin-bottom: 35px;
   }
 
