@@ -40,7 +40,7 @@ main {
   width: 120px;
   height: 120px;
   border-radius: 50%;
-  background-color: #d4d4d4;
+  background-color: #9a9a9a;
   background-image: url(../img/photo.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -72,27 +72,24 @@ main {
 }
 
 .menu-item:hover span:before, 
-.contacts a.email:hover span:before {
+.contacts a.email:hover span:before,
+.active span:before {
   content: "";
   position: absolute;
   left: 0;
   right: 0;
   bottom: -3px;
   height: 4px;
-  background-color: #F44336;
+  background-color: #fffc00;
   z-index: -1;
 }
 
 .active {
-  color: #F44336;
+  color: #fffc00;
 }
 
 .active:hover {
-  color: #F44336;
-}
-
-.active:hover span:before {
-  display: none;
+  color: #fffc00;
 }
 
 .contacts {
@@ -123,7 +120,7 @@ main {
 }
 
 .contacts a:hover {
-  background-color: #F44336;
+  background-color: #fffc00;
 }
 
 .contacts a.email {
@@ -141,8 +138,19 @@ main {
   position: relative;
 }
 
+.contacts a.email span:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -4px;
+  height: 1px;
+  background-color: white;
+  z-index: -1;
+}
+
 .contacts a.email:hover {
-  color: #F44336;
+  color: #fffc00;
 }
 
 .page-name {
@@ -222,8 +230,8 @@ h2 {
   position: absolute;
   top: 0;
   right: 0;
-  width: 90px;
-  height: 90px;
+  width: 115px;
+  height: 115px;
   background-image: url(../img/zoom.svg);
   background-repeat: no-repeat;
   background-position: center;
@@ -243,7 +251,7 @@ h2 {
   right: 0;
   bottom: -3px;
   height: 4px;
-  background-color: #F44336;
+  background-color: #fffc00;
   z-index: -1;
 }
 
@@ -273,7 +281,7 @@ h2 {
 }
 
 /* .item-preview:hover .caption {
-  color: #F44336;
+  color: #fffc00;
 } */
 
 .module {
