@@ -19,7 +19,7 @@ main {
   position: relative;
   width: 899px;
   padding-right: 20px;
-  padding-bottom: 25px;
+  padding-bottom: 5px;
   padding-left: 240px;
   /* margin: 0 auto; */
 }
@@ -78,18 +78,18 @@ main {
   position: absolute;
   left: 0;
   right: 0;
-  bottom: -3px;
+  bottom: -5px;
   height: 4px;
-  background-color: #fffc00;
+  background-color: #FF5722;
   z-index: -1;
 }
 
 .active {
-  color: #fffc00;
+  color: #FF5722;
 }
 
 .active:hover {
-  color: #fffc00;
+  color: #FF5722;
 }
 
 .contacts {
@@ -120,7 +120,7 @@ main {
 }
 
 .contacts a:hover {
-  background-color: #fffc00;
+  background-color: #FF5722;
 }
 
 .contacts a.email {
@@ -150,7 +150,7 @@ main {
 }
 
 .contacts a.email:hover {
-  color: #fffc00;
+  color: #FF5722;
 }
 
 .page-name {
@@ -170,21 +170,30 @@ main {
   justify-content: space-between;
   align-items: flex-start;
   position: relative;
+  padding-bottom: 20px;
 }
 
 .logo {
-  padding-bottom: 45px;
+  padding-bottom: 65px;
 }
 
 h2 {
   font-weight: 400;
   font-size: 50px;
   line-height: 1;
-  padding-top: 20px;
+  padding-top: 30px;
   margin: 0;
-  margin-bottom: 35px;
+  margin-bottom: 40px;
   position: relative;
   width: 100%;
+}
+
+h2 span {
+  background-image: linear-gradient(to bottom, 
+  #fffc00,
+  #fffc00 8px,
+  transparent 8px);
+  /* padding-left: 25px; */
 }
 
 .set {
@@ -249,9 +258,9 @@ h2 {
   position: absolute;
   left: 0;
   right: 0;
-  bottom: -3px;
+  bottom: -4px;
   height: 4px;
-  background-color: #fffc00;
+  background-color: #FF5722;
   z-index: -1;
 }
 
@@ -281,7 +290,7 @@ h2 {
 }
 
 /* .item-preview:hover .caption {
-  color: #fffc00;
+  color: #FF5722;
 } */
 
 .module {
@@ -374,9 +383,5 @@ h2 {
   .contacts a.email {
     font-size: 12px;
     margin-top: 10px;
-  }
-
-  h2 {
-    font-size: 45px;
   }
 }
