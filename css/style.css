@@ -19,7 +19,7 @@ main {
   position: relative;
   width: 899px;
   padding-right: 20px;
-  padding-bottom: 5px;
+  padding-bottom: 25px;
   padding-left: 230px;
   /* margin: 0 auto; */
 }
@@ -170,11 +170,10 @@ main {
   justify-content: space-between;
   align-items: flex-start;
   position: relative;
-  padding-bottom: 20px;
 }
 
 .logo {
-  padding-bottom: 65px;
+  padding-bottom: 45px;
 }
 
 h2 {
