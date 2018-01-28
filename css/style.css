@@ -19,7 +19,7 @@ main {
   position: relative;
   width: 899px;
   padding-right: 20px;
-  padding-bottom: 25px;
+  padding-bottom: 15px;
   padding-left: 230px;
   margin: 0 auto;
   left: -85px;
@@ -70,19 +70,12 @@ main {
 
 .menu-item span {
   position: relative;
+  padding-bottom: 2px;
 }
 
-.menu-item:hover span:before, 
-.contacts a.email:hover span:before,
-.active span:before {
-  content: "";
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: -5px;
-  height: 4px;
-  background-color: #ffff00;
-  z-index: -1;
+.menu-item:hover span, 
+.active span {
+  background-image: linear-gradient(to top, #ffff00, #ffff00 1px, transparent 1px);
 }
 
 .active {
@@ -137,21 +130,19 @@ main {
 
 .contacts a.email span {
   position: relative;
+  padding-bottom: 3px;
 }
 
-.contacts a.email span:before {
-  content: "";
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: -4px;
-  height: 1px;
-  background-color: white;
-  z-index: -1;
+.contacts a.email span {
+  background-image: linear-gradient(to top, #ffffff6e, #ffffff6e 1px, transparent 1px);
 }
 
 .contacts a.email:hover {
   color: #ffff00;
+}
+
+.contacts a.email:hover span {
+  background-image: linear-gradient(to top, #ffff00, #ffff00 1px, transparent 1px);
 }
 
 .page-name {
@@ -171,21 +162,23 @@ main {
   justify-content: space-between;
   align-items: flex-start;
   position: relative;
+  padding-bottom: 10px;
 }
 
 .logo {
-  padding-bottom: 45px;
+  padding-bottom: 55px;
 }
 
 h2 {
   font-weight: 500;
-  font-size: 50px;
+  font-size: 65px;
   line-height: 1;
-  padding-top: 20px;
+  padding-top: 15px;
   margin: 0;
-  margin-bottom: 35px;
+  margin-bottom: 40px;
   position: relative;
   width: 100%;
+  border-bottom: 1px solid #444444;
 }
 
 .set {
@@ -242,18 +235,12 @@ h2 {
 
 .caption span {
   position: relative;
+  padding-bottom: 2px;
 }
 
-.item-preview:hover .caption span:before,
-.set-item:hover ~ .caption span:before{
-  content: "";
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: -4px;
-  height: 4px;
-  background-color: #ffff00;
-  z-index: -1;
+.item-preview:hover .caption span,
+.set-item:hover ~ .caption span{
+  background-image: linear-gradient(to top, #ffff00, #ffff00 1px, transparent 1px);
 }
 
 .preview {
