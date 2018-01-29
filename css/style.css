@@ -212,8 +212,8 @@ h2 {
 .item-preview:hover::before {
   content: "";
   position: absolute;
-  top: 12px;
-  right: 12px;
+  top: 10px;
+  right: 10px;
   width: 80px;
   height: 80px;
   border-radius: 5px;
@@ -239,14 +239,16 @@ h2 {
   width: 100%;
   height: auto;
   background-color: white;
+  border-radius: 4px;
 }
 
 .web .preview {
-  box-shadow: 0 0 0 1px #eaeaea;
+  box-shadow: 0 0 0 1px #ececec;
 }
 
 .logo .preview {
-  box-shadow: 1px 1px 0 0px #eaeaea;
+  box-shadow: 1px 1px 0 0px #ececec;
+  border-radius: 0;
 }
 
 .caption {
