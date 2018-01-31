@@ -209,7 +209,7 @@ h2 {
   width: 283px;
 }
 
-.item-preview:hover::before {
+.item-preview:hover:before {
   content: "";
   position: absolute;
   top: 12px;
@@ -243,7 +243,7 @@ h2 {
 }
 
 .web .preview {
-  box-shadow: 0 3px 12px 0 #c7c7c7;
+  box-shadow: 0 1px 10px 1px #e0e0e0;
 }
 
 .logo .preview {
