@@ -7,7 +7,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  /* background-color: #101010; */
+  background-color: #f3f3f3;
   /* color: white; */
 }
 
@@ -19,8 +19,8 @@ main {
   position: relative;
   width: 899px;
   padding-right: 20px;
-  padding-bottom: 15px;
-  padding-left: 230px;
+  padding-bottom: 20px;
+  padding-left: 240px;
   margin: 0 auto;
   left: -85px;
 }
@@ -28,7 +28,7 @@ main {
 .info {
   position: fixed;
   width: 195px;
-  margin-left: -210px;
+  margin-left: -220px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -38,23 +38,25 @@ main {
 }
 
 .photo {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  background-color: #9a9a9a;
+  width: 135px;
+  height: 135px;
+  border-radius: 4px;
+  background-color: #e4e4e4;
   background-image: url(../img/photo.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  margin-top: 25px;
+  margin-top: 30px;
   margin-bottom: 15px;
 }
 
 .name {
-  font-size: 22px;
-  line-height: 1.3;
+  font-size: 19px;
+  line-height: 1.5;
   font-weight: 500;
   margin-bottom: 30px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
 }
 .menu {
   margin-bottom: 50px;
@@ -92,9 +94,13 @@ main {
 .contacts a {
   display: block;
   margin: 0;
-  margin-right: 14px;
-  background-color: #eaeaea;
+  margin-right: 0px;
+  /* background-color: #eaeaea; */
   border-radius: 50%;
+}
+
+.contacts .behance {
+  margin-left: -7px;
 }
 
 .contacts svg {
@@ -119,16 +125,12 @@ main {
   position: relative;
   background-color: transparent;
   color: black;
-  margin-top: 15px;
+  margin-top: 5px;
 }
 
 .contacts a.email span {
   position: relative;
   padding-bottom: 3px;
-}
-
-.contacts a.email span {
-  background-image: linear-gradient(to top, #e0e0e0, #e0e0e0 1px, transparent 1px);
 }
 
 .contacts a.email:hover span {
@@ -156,7 +158,7 @@ main {
 }
 
 .logo {
-  padding-bottom: 55px;
+  padding-bottom: 30px;
 }
 
 h2 {
@@ -181,12 +183,12 @@ h2 {
 
 .item-preview {
   position: relative;
-  margin-bottom: 40px;
+  margin-bottom: 35px;
   cursor: pointer;
 }
 
 .set-item {
-  margin-bottom: 30px;
+  margin-bottom: 24px;
 }
 
 .full {
@@ -212,11 +214,11 @@ h2 {
 .item-preview:hover:before {
   content: "";
   position: absolute;
-  top: 12px;
-  right: 12px;
+  top: 0;
+  right: 0;
   width: 80px;
   height: 80px;
-  /* border-radius: 5px; */
+  border-top-right-radius: 5px;
   background-image: url(../img/zoom.svg);
   background-repeat: no-repeat;
   background-position: center;
@@ -240,15 +242,11 @@ h2 {
   height: auto;
   background-color: white;
   border-radius: 4px;
+  /* box-shadow: 0 0 0 5px #ffffff; */
 }
 
-.web .preview {
-  box-shadow: 0 0 0 1px #e0e0e0;
-}
-
-.logo .preview {
-  box-shadow: 1px 1px 0 0 #e0e0e0;
-  border-radius: 0;
+.web .preview, .logo .preview {
+  box-shadow: 0 1px 1px 0 #dadada;
 }
 
 .caption {
@@ -265,8 +263,8 @@ h2 {
 }
 
 .item-preview~.caption {
-  margin-top: -18px;
-  margin-bottom: 40px;
+  margin-top: -12px;
+  margin-bottom: 35px;
 }
 
 /* .item-preview:hover .caption {
