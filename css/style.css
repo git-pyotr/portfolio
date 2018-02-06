@@ -51,11 +51,11 @@ main {
 
 .name {
   font-size: 21px;
-  line-height: 1.5;
+  line-height: 1.4;
   font-weight: 500;
   margin-bottom: 30px;
   text-transform: uppercase;
-  letter-spacing: 3px;
+  letter-spacing: 4px;
 }
 .menu {
   margin-bottom: 50px;
@@ -124,7 +124,7 @@ main {
   position: relative;
   background-color: transparent;
   color: black;
-  margin-top: 5px;
+  margin-top: 3px;
 }
 
 .contacts a.email span {
@@ -216,11 +216,13 @@ h2 {
 .item-preview:hover:before {
   content: "";
   position: absolute;
-  top: 10px;
-  right: 10px;
-  width: 100px;
-  height: 100px;
-  /* border-top-right-radius: 5px; */
+  top: 25px;
+  right: 25px;
+  width: 70px;
+  height: 70px;
+  /* margin-right: -50px;
+  margin-top: -50px; */
+  border-radius: 50%;
   background-image: url(../img/zoom.svg);
   background-repeat: no-repeat;
   background-position: center;
